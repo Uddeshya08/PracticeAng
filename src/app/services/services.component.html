@@ -1,1 +1,10 @@
-<p>services works!</p>
+<h3>{{pageTitle}}</h3>
+
+<button (click)="changeTitle()">Channge Title</button>
+
+<p>Two way data binding example</p>
+
+<input type="text" [(ngModel)]="username"/>
+<h2>Welcome {{username}}</h2>
+
+
