@@ -9,7 +9,8 @@ import { HomeComponent } from './home/home.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     FormsModule,
     MatToolbarModule, 
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
